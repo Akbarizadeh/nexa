@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Users\akbar\AppData\Roaming\npm\node.exe C:\Users\akbar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --exact --dev typescript
+
+PATH: 
+  E:\workspace-myself\nexta-api\nexa\frontend\nexa-web\node_modules\.bin;E:\workspace-myself\nexta-api\nexa\frontend\node_modules\.bin;E:\workspace-myself\nexta-api\nexa\node_modules\.bin;E:\workspace-myself\nexta-api\node_modules\.bin;E:\workspace-myself\node_modules\.bin;E:\node_modules\.bin;C:\Users\akbar\AppData\Local\nvm\v22.8.0\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Program Files\FireDaemon OpenSSL 3\bin\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\HP\HP One Agent;C:\Program Files\Common Files\Tom Sawyer Software\10.0.0;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\akbar\AppData\Local\nvm;C:\nvm4w\nodejs;D:\Windows Kits\10\Windows Performance Toolkit\;C:\Users\akbar\AppData\Local\Programs\Python\Python310\;C:\Users\akbar\AppData\Local\Programs\Python\Python310\Scripts\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\akbar\AppData\Local\Programs\Python\Launcher\;C:\Users\akbar\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\akbar\AppData\Local\Programs\Python\Python312\;C:\Users\akbar\AppData\Local\Microsoft\WindowsApps;C:\Users\akbar\.dotnet\tools;d:\Users\akbar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\akbar\AppData\Local\gitkraken\bin;C:\Users\akbar\AppData\Local\Microsoft\WindowsApps;C:\Users\akbar\.dotnet\tools;C:\poppler\bin;C:\Program Files\Tesseract-OCR;C:\Users\akbar\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\akbar\AppData\Local\Programs\Python\Python310\;C:\Users\akbar\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\akbar\AppData\Local\GitHubDesktop\bin;C:\Users\akbar\AppData\Roaming\npm;C:\Users\akbar\go\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/next/-/next-16.1.6.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\akbar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:633:28)
+      at ClientRequest.emit (node:events:519:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:856:9)
+      at Object.onceWrapper (node:events:633:28)
+      at TLSSocket.emit (node:events:531:35)
+      at Socket._onTimeout (node:net:591:8)
+      at listOnTimeout (node:internal/timers:581:17)
+      at process.processTimers (node:internal/timers:519:7)
+
+npm manifest: 
+  {
+    "name": "nexa-web",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@tailwindcss/postcss": "^4.1.18",
+      "@types/node": "^25.2.3",
+      "@types/react": "^19.2.14",
+      "@types/react-dom": "^19.2.3",
+      "autoprefixer": "^10.4.24",
+      "eslint": "^9.39.2",
+      "eslint-config-next": "^16.1.6",
+      "lucide-react": "^0.563.0",
+      "next": "^16.1.6",
+      "postcss": "^8.5.6",
+      "react": "^19.2.4",
+      "react-dom": "^19.2.4",
+      "tailwindcss": "^4.1.18",
+      "typescript": "^5.9.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
