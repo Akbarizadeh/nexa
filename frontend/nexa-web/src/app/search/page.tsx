@@ -274,7 +274,7 @@ export default function SearchPage() {
       <div className="mb-8">  
         <h1 className="text-2xl font-bold text-slate-900">AI Search</h1>  
         <p className="text-slate-500 mt-1">  
-          Search naturally — NEXA understands what you need  
+          Search naturally — SATRAP understands what you need  
         </p>  
       </div>  
   

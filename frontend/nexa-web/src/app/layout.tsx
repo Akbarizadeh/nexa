@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 
 export const metadata: Metadata = {
-  title: "NEXA - AI Powered Local Social Commerce",
+  title: "SATRAP - AI Powered Local Social Commerce",
   description:
     "Discover events, products, services, and offers near you powered by AI.",
 };

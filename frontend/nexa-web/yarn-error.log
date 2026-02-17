@@ -27,7 +27,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "nexa-web",
+    "name": "Satrap-web",
     "version": "1.0.0",
     "private": true,
     "scripts": {
