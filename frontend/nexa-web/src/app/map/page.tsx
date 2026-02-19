@@ -105,8 +105,8 @@ export default function Page() {
 
       {/* 🗺 Map */}
       <MapContainer
-        center={[39.8283, -98.5795]}
-        zoom={4}
+        center={[39.5, -8.0]}
+        zoom={7}
         className="h-full w-full"
       >
         <TileLayer
