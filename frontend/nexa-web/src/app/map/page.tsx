@@ -61,7 +61,7 @@ export default function Page() {
   }, []);
 
   const markers = useMemo<MapMarker[]>(
-    () => generateDemoMarkers(1000),
+    () => generateDemoMarkers(2000),
     []
   );
 
